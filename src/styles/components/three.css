@@ -1,0 +1,26 @@
+
+canvas {
+  @apply top-0 left-0 w-full h-full;
+}
+
+@layer components {
+  .markup {
+    @apply w-0;
+    @apply -translate-x-28;
+  }
+  .markup-content {
+    @apply px-2 py-3;
+    @apply text-primary bg-secondary rounded-xl;
+    @apply border border-primary;
+    @apply w-28 md:w-32 -translate-x-28 md:-translate-x-32;
+    @apply text-xxs md:text-xs;
+  }
+
+  .markup-icon {
+    @apply inline-block;
+    @apply p-0 m-0 align-text-top;
+    @apply text-xxs md:text-xs;
+    @apply hover:cursor-pointer hover:text-red-400;
+  }
+
+}

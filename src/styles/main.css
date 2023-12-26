@@ -1,0 +1,13 @@
+@import './components/general.css';
+@import './components/face.css';
+@import './components/three.css';
+@import './components/animation.css';
+
+/*
+@import './components/sections.css';
+@import './components/accordion.css'; */
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

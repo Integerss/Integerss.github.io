@@ -1,0 +1,78 @@
+html, body {
+  @apply h-full w-full bg-secondary text-secondary m-0;
+  
+  font-family: serif, 'Times New Roman', Times, 'Trebuchet MS', Arial, sans-serif;
+  @apply tracking-wide;
+  @apply text-sm lg:text-lg 2xl:text-xl;
+}
+
+
+@layer base {
+  ul {
+    list-style-type: disc;
+    @apply px-10;
+  }
+
+  a, a:link, a:visited {
+    /* @apply font-semibold hover:underline text-link-txt; */
+    @apply text-stone-500;
+    @apply hover:text-link-hover_txt;
+    
+  }
+}
+
+@layer components {
+  .icon {
+    @apply inline-block align-text-top;
+    @apply text-sm md:text-base;
+  }
+
+  .intro-container {
+    @apply bg-primary;
+    @apply relative;
+    @apply h-screen w-screen;
+    @apply flex flex-col md:justify-end;
+  }
+
+  .intro-div {
+    @apply absolute;
+    @apply w-full 2xl:w-2/3;
+    @apply px-8 md:px-32;
+    @apply space-y-16 2xl:space-y-32;
+    @apply top-1/4 2xl:top-1/4;
+    /* pr-4 border-black border-r-2 */
+  }
+
+  .globe-div {
+    @apply absolute;
+    @apply w-1/2;
+    @apply text-primary;
+    @apply text-lg md:text-2xl 2xl:text-3xl;
+    @apply sm:top-64 md:top-1/4 2xl:top-1/3;
+    @apply px-16;
+  }
+
+  .projects-container {
+    @apply bg-secondary text-primary; 
+    @apply relative;
+    @apply h-fit w-screen;
+    @apply flex flex-col items-center;
+    @apply px-32 pt-16 pb-8 md:pt-32 md:pb-16;
+  }
+
+  .projects-div {
+    @apply w-3/4 2xl:w-2/3;
+    @apply text-xl md:text-2xl 2xl:text-3xl;
+    @apply grid grid-cols-8 gap-x-10 gap-y-2;
+  }
+
+  .showcase-div{
+    @apply bg-secondary text-primary; 
+    @apply relative;
+    @apply h-fit w-screen;
+    @apply flex flex-col items-center;
+    @apply text-xl md:text-2xl 2xl:text-3xl;
+    @apply px-32 py-4 md:py-8;
+  }
+
+}
