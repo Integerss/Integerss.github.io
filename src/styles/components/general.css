@@ -36,7 +36,7 @@ html, body {
 
   .intro-div {
     @apply absolute;
-    @apply w-full 2xl:w-2/3;
+    @apply w-full md:w-2/3;
     @apply px-8 md:px-32;
     @apply space-y-16 2xl:space-y-32;
     @apply top-1/4 2xl:top-1/4;

@@ -5,7 +5,7 @@ export default function Projects() {
       <div className='projects-container'>
         <div className='projects-div'>
           <div></div>
-          <div className='col-span-7 py-6 md:py-12 text-xl md:text-3xl 2xl:text-4xl'>
+          <div className='col-span-7 py-6 md:py-12 text-xl md:text-2xl 2xl:text-3xl'>
             List of Coding-Related Projects
           </div>
           <div className='text-right'>Dec 2023</div>
