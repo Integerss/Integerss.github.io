@@ -10,18 +10,8 @@ function App() {
       <Intro />
       <Face />
       <Projects />
-      <div className='showcase-div'>
-        <div className='w-2/3 2xl:w-1/2;'>
-          Some of the Shufflez NFTs
-        </div>
-      </div>
       <div>
         <img src={Img1} className="image" alt="Shufflez NFTs" />
-      </div>
-      <div className='showcase-div'>
-        <div className='w-2/4 2xl:w-1/2;'>
-          Places I've lived using Blender
-        </div>
       </div>
       <GlobeModel />
       {/* <div className='showcase-div'>

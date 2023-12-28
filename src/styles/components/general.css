@@ -61,7 +61,7 @@ html, body {
   }
 
   .projects-div {
-    @apply w-3/4 2xl:w-2/3;
+    @apply w-full 2xl:w-2/3;
     @apply text-lg md:text-xl 2xl:text-2xl;
     @apply grid grid-cols-8 gap-x-10 gap-y-2;
   }
