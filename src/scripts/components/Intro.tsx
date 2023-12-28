@@ -1,9 +1,6 @@
-import { useState } from 'react'
 import { VscLinkExternal } from "react-icons/vsc";
 
 export default function Intro() {
-    const [count, setCount] = useState(0)
-
     return(
         <>
             <div className='intro-container'>

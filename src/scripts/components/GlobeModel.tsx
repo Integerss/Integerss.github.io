@@ -1,6 +1,5 @@
 import { Environment, OrbitControls, PerspectiveCamera } from '@react-three/drei';
 import { Canvas } from '@react-three/fiber';
-import React from 'react';
 import { Suspense } from 'react';
 import Model from './Model';
 

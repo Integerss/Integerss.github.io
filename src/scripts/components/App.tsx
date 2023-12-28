@@ -1,6 +1,5 @@
 import Intro from './Intro';
 import Face from './Face';
-import Anim from './Anim.jsx';
 import Projects from './Projects';
 import GlobeModel from './GlobeModel';
 import Img1 from '../../assets/project1.svg';
