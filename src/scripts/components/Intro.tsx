@@ -6,14 +6,14 @@ export default function Intro() {
             <div className='intro-container'>
                 <div className='intro-div'>
                     <div>
-                        <div className='text-3xl md:text-5xl 2xl:text-8xl'>
+                        <div className='text-2xl md:text-4xl 2xl:text-7xl'>
                             I'm Edmund.
                         </div>
-                        <div className='text-xl md:text-3xl 2xl:text-4xl'>
+                        <div className='text-lg md:text-2xl 2xl:text-3xl'>
                             I mostly think. Sometimes, I explore and create.
                         </div>
                     </div>
-                    <div className='grid grid-cols-4 gap-x-10 gap-y-2 md:text-xl 2xl:text-2xl'>
+                    <div className='grid grid-cols-4 gap-x-10 gap-y-2 md:text-lg 2xl:text-xl'>
                         <div className='text-right font-bold'>Contact</div>
                         <div className='col-span-3'>
                         <a href='https://www.linkedin.com/in/edmund-wu-551b60230/' target='_blank'> Linkedin <div className='icon'><VscLinkExternal /></div></a>

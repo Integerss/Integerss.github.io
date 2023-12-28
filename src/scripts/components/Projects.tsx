@@ -5,7 +5,7 @@ export default function Projects() {
       <div className='projects-container'>
         <div className='projects-div'>
           <div></div>
-          <div className='col-span-7 py-6 md:py-12 text-2xl md:text-4xl 2xl:text-5xl'>
+          <div className='col-span-7 py-6 md:py-12 text-xl md:text-3xl 2xl:text-4xl'>
             List of Coding-Related Projects
           </div>
           <div className='text-right'>Dec 2023</div>
@@ -48,7 +48,7 @@ export default function Projects() {
             An analysis of Unicorn companies with R following conventional pre-machine-learning methods.
           </div>
           <div></div>
-          <div className='col-span-7 pt-16 md:pt-36 text-2xl md:text-4xl 2xl:text-5xl'>
+          <div className='col-span-7 pt-16 md:pt-36 text-xl md:text-3xl 2xl:text-4xl'>
             Some Things from the Projects
           </div>
         </div>
